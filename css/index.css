@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 98vh;
+    background-color: rgb(26, 26, 26);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: aliceblue;
+    color: rgb(26, 26, 26);
+    padding: 15px;
+}
+
+main {
+    flex-grow: 1;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+section {
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+footer {
+    justify-content: center;
+    position: flex;
+    bottom: 0px;
+    padding: 10px;
+    background-color: aliceblue;
+    color: rgb(26, 26, 26);
+    text-align: center;
+}
+
+a {
+    color: aliceblue;
+}
+
+hr {
+    color: aliceblue;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+.foto {
+    vertical-align: middle;
+}
+
+.texto_principal {
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.texto {
+    font-size: 20px;
+    flex: 1;
+}
+
+#main-nav ul { 
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+#main-nav li {
+    margin: 0 10px;
+}
+
+#main-nav a img {
+    height: 40px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+#main-nav a:hover img {
+    transform: scale(1.2);
+}

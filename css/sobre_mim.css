@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 98vh;
+    background-color: rgb(26, 26, 26);
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: aliceblue;
+    color: rgb(26, 26, 26);
+    padding: 15px;
+}
+
+main {
+    flex-grow: 1;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+footer {
+    padding: 10px;
+    background-color: aliceblue;
+    color: rgb(26, 26, 26);
+    text-align: center;
+}
+
+p {
+    text-indent: 40px;
+}
+
+a {
+    color: aliceblue;
+}
+
+hr {
+    color: aliceblue;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+#main-nav ul { 
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+#main-nav li {
+    margin: 0 10px;
+}
+
+#main-nav a img {
+    height: 40px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+#main-nav a:hover img {
+    transform: scale(1.2);
+}
+
+.foto {
+    display: flex;
+    align-items: center;
+}
+
+.texto {
+    font-size: 20px;
+    flex: 1;
+    margin-right: 15px;
+}
+
+.foto1 {
+    display: flex;
+    align-items: center;
+}
+
+.texto1 {
+    font-size: 20px;
+    flex: 1;
+    margin-left: 15px;
+}
+
+.texto_principal {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+.download-btn {
+    font-size: 20px;
+}
